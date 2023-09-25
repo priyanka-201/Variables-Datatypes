@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Arrays {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
+        System.out.println("Enter the number at index");
         int size = s.nextInt();
         int[] numbers = new int[size];
         System.out.println("Enter the number at index");
